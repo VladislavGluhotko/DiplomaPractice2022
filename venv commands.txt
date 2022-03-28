@@ -1,0 +1,10 @@
+python -m venv myvenv
+myvenv\Scripts\activate.bat
+pip list
+deactivate
+(???)  py -m pip install -r requirements.txt
+pip install -r requirements_summarization.txt
+
+--- jupyter notebook ---
+pip install --user ipykernel
+python -m ipykernel install --user --name=myvenv

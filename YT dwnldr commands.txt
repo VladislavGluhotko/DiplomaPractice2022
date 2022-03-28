@@ -1,0 +1,5 @@
+from youtube_comment_scraper_python import *
+youtube.open("https://www.youtube.com/watch?v=_9JfI50Q5G0")
+response=youtube.video_comments()
+
+youtube-comment-downloader --youtubeid _9JfI50Q5G0 --output 12345678.json --sort 0
